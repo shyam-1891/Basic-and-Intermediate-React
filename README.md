@@ -1,7 +1,7 @@
 # Basic-and-Intermediate-React
 Basic and Intermediate React
 
-Topics covered in this section
+Topics covered in this section (React-basic-components)
 
 1. Components
 2. JSX Basics
