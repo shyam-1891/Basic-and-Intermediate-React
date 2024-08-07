@@ -3,6 +3,7 @@ import "./App.css";
 import { useEffect } from "react";
 import RenderRawHTML from "./RenderRawHTML";
 import Todos from "./components/Todos/Todos";
+import Usereffhook from "./components/Hooks/Usereffhook";
 
 function App() {
   const url = "https://jsonplaceholder.typicode.com/users";
@@ -21,9 +22,14 @@ function App() {
 
   return (
     <>
+      <h1>Hooks</h1>
+      <Usereffhook />
+
+      <hr />
       <h1>Todos</h1>
       <Todos />
 
+      <hr />
       <h1>User List</h1>
       {isLoading ? (
         <h2>Loading...</h2>
@@ -35,6 +41,7 @@ function App() {
         </ul>
       )}
 
+      <hr />
       <h1>Render Raw HTML</h1>
       <RenderRawHTML />
     </>

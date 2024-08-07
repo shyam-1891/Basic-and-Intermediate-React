@@ -4,7 +4,7 @@ import "./Todos.css";
 export default function Todos() {
   const [todolist, setTodolist] = useState([]);
   const [textTodo, setTextTodo] = useState();
-  console.log(todolist);
+  // console.log(todolist);
 
   const addTodo = () => {
     if (textTodo === "") return;
